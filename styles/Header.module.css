@@ -3,8 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: fixed;
     z-index: 50;
+    background-color: #242424;
+    color: aliceblue;
+    width: 100%;
 }
 .navbar{
     
@@ -30,15 +33,22 @@
 .navMenu{
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
+    grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-size: 1.3rem;
+}
+.navMenu li {
+    padding: 6px 10px;
+    
 }
 
 .navMenu li:hover{
-    border: 1px solid black;
+    outline: 1px solid rgb(240, 239, 239);
+    border-radius: 6px;
+    background-color: rgb(240, 239, 239);
+    color: #242424;
 }
