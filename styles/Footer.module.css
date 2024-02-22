@@ -28,6 +28,17 @@
     column-gap: 20px;
     justify-items: center;
 }
+.table{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table h2{
+    margin-bottom: 10px;
+}
+.table >*:not(:first-child){
+    margin-top: 4px;
+}
 .copyright{
     width: 100%;
     height: 15px;

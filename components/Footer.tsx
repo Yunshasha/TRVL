@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/Footer.module.css";
-
+import Link from "next/link";
 function Footer() {
   return (
     <div className={styles.footer}>
@@ -8,25 +8,26 @@ function Footer() {
         <div className={styles.contact_card}>
           <div className={styles.content}>
             <div className={styles.table}>
-              <span>title</span>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
+              <h2>About Us</h2>
+              <Link href="/sign-up">How it works</Link>
+              <Link href="/">Testimonials</Link>
+              <Link href="/">Careers</Link>
+              <Link href="/">Inveshrefrs</Link>
+              <Link href="/">Terms of Service</Link>
             </div>
             <div className={styles.table}>
-              <span>title</span>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
+              <h2>Contact Us</h2>
+              <Link href="/">Contact</Link>
+              <Link href="/">Support</Link>
+              <Link href="/">Destinations</Link>
+              <Link href="/">Sponsorships</Link>
             </div>
             <div className={styles.table}>
-              <span>title</span>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
+              <h2>Social Media</h2>
+              <Link href="/">Instagram</Link>
+              <Link href="/">Facebook</Link>
+              <Link href="/">Youtube</Link>
+              <Link href="/">Twitter</Link>
             </div>
           </div>
         </div>

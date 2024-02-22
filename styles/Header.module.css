@@ -8,11 +8,12 @@
     background-color: #242424;
     color: aliceblue;
     width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar{
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     max-width: 1500px;
@@ -28,6 +29,9 @@
     font-size: 1.7rem;
     display: flex;
     align-items: center;
+}
+.nav_logo span{
+    letter-spacing: 1.5px;
 }
 
 .navMenu{
