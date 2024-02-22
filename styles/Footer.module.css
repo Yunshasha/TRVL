@@ -47,3 +47,14 @@
     align-items: center;
     
 }
+
+@media screen and (max-width: 960px) {
+    .table h2 {
+      font-size: 1.4rem;
+    }
+    .table >*:not(:first-child){
+        font-size: 1rem;
+    }
+  }
+  
+ 

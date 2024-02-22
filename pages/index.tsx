@@ -41,13 +41,6 @@ export default function Home() {
           <li>1</li>
           <li>1</li>
         </div>
-        <div>
-          <span>title</span>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </div>
       </div>
     </div>
   );
