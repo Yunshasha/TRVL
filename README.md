@@ -4,6 +4,12 @@ This website is a front-end fully responsive project. It's is a great practice f
 
 ## Getting Started
 
+Clone my project from github to your local
+
+```
+git clone https://github.com/Yunshasha/TRVL.git
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Learn More
