@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 This website is a front-end fully responsive project. It's is a great practice for front-end beginner.
 <br/>
 <br/>
-<img src='https://github.com/Yunshasha/TRVL/blob/main/public/cardImage.png'/> {width= 500px}
+<img src='https://github.com/Yunshasha/TRVL/blob/main/public/cardImage.png'/>
 
 ## Getting Started
 
