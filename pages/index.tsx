@@ -1,17 +1,11 @@
 import HeroSection from "@/components/HeroSection";
-
+import styles from "@/styles/Home.module.css";
 export default function Home() {
   return (
-    <div>
+    <div className={styles.home}>
       <HeroSection />
-      <div
-        style={{
-          flex: "1",
-          minHeight: "300px",
-          height: "fit-content",
-          backgroundColor: "white",
-        }}
-      >
+
+      <div className={styles.card_container}>
         this is product
         <div>
           <span>title</span>
