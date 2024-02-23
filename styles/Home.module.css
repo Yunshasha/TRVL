@@ -2,10 +2,13 @@
 /* .home {
   display: flex;
   flex-direction: column;
-}
+} */
 
-.card_container{ 
-  height: "fit-content"; 
-  background-color: #fff;
+/* .card_container{ 
+  flex:1
   
-}  */
+} */
+
+/* .home {
+  margin-top: 60px;
+} */

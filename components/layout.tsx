@@ -18,7 +18,7 @@ export default function Layout({
       }}
     >
       <Header />
-      <main>{children}</main>
+      <main style={{ marginTop: "60px" }}>{children}</main>
       <Footer />
     </div>
   );

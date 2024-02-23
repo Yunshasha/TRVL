@@ -7,13 +7,7 @@ export default function Home() {
 
       <div className={styles.card_container}>
         this is product
-        <div>
-          <span>title</span>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </div>
+        <div>this is product part</div>
         <div>
           <span>title</span>
           <li>1</li>
