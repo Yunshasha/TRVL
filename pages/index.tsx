@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import HeroSection from "@/components/HeroSection";
 import styles from "@/styles/Home.module.css";
 export default function Home() {
@@ -6,29 +7,7 @@ export default function Home() {
       <HeroSection />
 
       <div className={styles.card_container}>
-        this is product
-        <div>this is product part</div>
-        <div>
-          <span>title</span>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </div>
-        <div>
-          <span>title</span>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </div>
-        <div>
-          <span>title</span>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-        </div>
+        <Card />
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ function HeroSection() {
         muted
         className={styles.video}
       />
+
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
     </div>
