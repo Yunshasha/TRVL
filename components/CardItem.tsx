@@ -1,5 +1,6 @@
 import styles from "@/styles/Card.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 interface CardItem {
   src: string;
@@ -12,10 +13,7 @@ function CardItem(props: CardItem) {
     <>
       <li className={styles.cards__item}>
         <Link className={styles.cards__item__link} href={props.path}>
-          <figure
-            className={styles.cards__item__pic_wrap}
-            data-category={props.label}
-          >
+          <figure className={styles.cards__item__pic_wrap}>
             <img
               className={styles.cards__item__img}
               alt="Travel Image"

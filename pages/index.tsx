@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.home}>
-      <HeroSection />
+      {/* <HeroSection /> */}
 
       <div className={styles.card_container}>
         <Card />
